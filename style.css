@@ -1,0 +1,393 @@
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid skyblue;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    padding: 10px 0px;
+}
+
+#nav_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav_text {
+    color: gray;
+    font-size: 20px;
+    padding: 40px;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+#icon {
+    padding: 5px 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 100px 350px;
+    background-image: url("https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/home-bg.png");
+    color: white;
+    gap: 30px;
+}
+
+#home_1 {
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 5px 0;
+}
+
+#home_2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+#home_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: rgb(245, 220, 228);
+    gap: 10px;
+}
+
+#email {
+    border-radius: 5px;
+    width: 285px;
+    padding: 5px;
+}
+
+#search {
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#home_note {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    gap: 20px;
+}
+
+#images {
+    border: 3px solid skyblue;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.feature-text {
+    font-size: larger;
+    width: 300px;
+}
+
+#main {
+    max-width: 1200px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center; 
+    margin: 0 auto; 
+}
+
+#sub_main {
+    width: 400px;
+    height: 390px;
+    margin: 5px auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+#head {
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+#sub_head {
+    font-size: 19px;
+    color: #81807f;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+#matter {
+    font-size: 15px;
+    color: #d2d1cf;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#company_h1 {
+    font-size: 25px;
+    color: #81807f;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#company_h2 {
+    font-size: 18px;
+    color: #d2d1cf;
+    text-align: center;
+}
+
+#companies {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto; 
+}
+
+#header2 {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    text-align: center; 
+}
+
+
+#bg_color {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#headerh1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#headerh2 {
+    font-size: 18px;
+    color: #777;
+    margin-top: 0;
+}
+
+
+#com {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#companycontent {
+    flex: 1;
+}
+
+#contenthead {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+#stars {
+    display: flex;
+    align-items: center;
+}
+
+#stars img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#via {
+    font-size: 14px;
+    color: #888;
+}
+
+
+#readyouter {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#readyinner {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#readycontent {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#readyhead {
+    font-size: 30px;
+    color: black;
+}
+
+#readysubhead {
+    text-align: center;
+    font-size: 22px;
+    color: #d2d1cf;
+}
+
+#readybtn {
+    width: 60%;
+    height: 50px;
+    background-color: #00aeef;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#navouter {
+    width: 100vw;
+    height: 60px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyrightcontent {
+    font-size: 15px;
+    color: #6d6a65;
+}
+
+#copyrightcontent b {
+    font-weight: bold;
+    color: orangered;
+}
+
+#likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #6d6a65;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#social a {
+    text-decoration: none;
+}
+
+#xbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#likebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00aeef;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    gap: 5px;
+}
